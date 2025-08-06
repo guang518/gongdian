@@ -1,6 +1,7 @@
-# 潇洒接口：
-https://gitee.com/PizazzXS/another-d/raw/master/单线路.zip
-https://gitee.com/PizazzXS/another-d/raw/master/多线路.zip
+# 感谢
+在潇洒接口的基础上，参考了小米，饭太硬等接口拼接而成
 
-# 小米接口地址：
-http://www.mitvbox.xyz/小米/DEMO.json
+也增加了一些直播接口。
+
+推荐使用影视系列的软件：
+https://pan.baidu.com/s/16-iY6TqaDQQNmThmd36xpg?pwd=bqdw
