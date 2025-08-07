@@ -72,10 +72,24 @@
                 "key3": "aassddwwxxllsx1x"
             }
         },
-
-//删除乐达，清晰度低
-//删除灵虎，无法播放
-
+        
+        //删除乐达，清晰度低
+        
+        {
+            "key": "灵虎",
+            "name": "灵虎｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "",
+                "site": "https://bind.315999.xyz/89.txt",
+                "dataKey": "#getapp@TMD@2025",
+                "dataIv": "#getapp@TMD@2025",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
         {
             "key": "旗星",
             "name": "旗星｜APP",
@@ -120,9 +134,9 @@
                 "version": ""
             }
         },
-
-//删除火猫app，提示盗版，无法观看
-
+        
+        //删除火猫app，提示盗版，无法观看
+        
         {
             "key": "若雪",
             "name": "若雪丨APP",
@@ -181,9 +195,9 @@
                 "version": "120"
             }
         },
-
-//删除稀饭app， 无法加载
-
+        
+        //删除稀饭app， 无法加载
+        
         {
             "key": "蓝光",
             "name": "蓝光｜APP",
@@ -262,6 +276,7 @@
             "key": "米诺",
             "name": "米诺｜APP",
             "type": 3,
+            "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
                 "url": "http://www.milkidc.cn",
@@ -271,9 +286,9 @@
                 "version": ""
             }
         },
-
-//删除云速，无法播放，分类布局混乱
-
+        
+        //删除云速，无法播放，分类布局混乱
+        
         {
             "key": "瓜萌",
             "name": "瓜萌｜APP",
@@ -303,9 +318,9 @@
                 "version": "119"
             }
         },
-
-//删除橘子，无法播放
-
+        
+        //删除橘子，无法播放
+        
         {
             "key": "萝卜",
             "name": "萝卜｜APP",
@@ -320,10 +335,10 @@
                 "version": "107"
             }
         },
-
-//删除米兔app，无封面图，部分无法播放
-//删除小红app，无法播放
-
+        
+        //删除米兔app，无封面图，部分无法播放
+        //删除小红app，无法播放
+        
         {
             "key": "白蛇",
             "name": "白蛇｜APP-有直播节目",
@@ -353,10 +368,10 @@
                 "version": ""
             }
         },
-
-//删除外剧app，都是504清晰度
-//删除移动app，无缩略图且清晰度都一般
-
+        
+        //删除外剧app，都是504清晰度
+        //删除移动app，无缩略图且清晰度都一般
+        
         {
             "key": "哔哩视频",
             "name": "哔哩｜视频",
@@ -375,9 +390,9 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
-
-//删除腾讯视频，无法播放
-
+        
+        //删除腾讯视频，无法播放
+        
         {
             "key": "优酷视频",
             "name": "优酷｜视频",
@@ -392,9 +407,9 @@
             "api": "./js/drpy2.min.js",
             "ext": "./js/芒果视频.js"
         },
-
-//删除爱奇艺视频，无法播放
-
+        
+        //删除爱奇艺视频，无法播放
+        
         {
             "key": "三六零",
             "name": "三六零｜视频",
@@ -413,71 +428,58 @@
             "ext": "./json/xbky.json"
         },
         {
-            "key": "csp_Wogg",
+            "key": "玩偶哥哥",
             "name": "玩偶｜4K网盘",
             "type": 3,
-            "api": "csp_Wogg",
-            "changeable": "0",
-            "quickSearch": 0,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
             "filterable": 1,
-            "ext": "Yu2Y3Q8tqDTqZ+GCqfQZz8i/vsP/tl9O+/0ZjpgnBg8rYFx7ctv7/EwYIQ8UriiQKDIJuqIvlQQje6dXLxWHRiSlxkxqMyYKI0d1JGw46AuOAoB1VAvOCaqYqiTezjHHt8wMymbT/vDdiFXkMbc44kNGdjpzSyL2/kBZIAQaYMPgSkEYlv4faMeCi3MaCLYaT3C7qaUzLc56RYGLF2rmtIoYgMFOG9eSpyjO66jU/3v2f1yXnqTEEKd1/+/m8DBi8KudUm92Pa/NN8zRcY5nClAo1Eqn9bGzuO/+M4V5KG/RhdFdHyzxIpxfgoBRhn4j7GEzWBxrg4JiW2kP8Vo0iQm0S8aJUTOf1ROVp2sKW36D2Q/IgMvEqazefGXZSyNSTsjbNbVc2cHMxKrbUQIPqhD5y93kdVqr5glHjuqjrDC8Pa54/l2nFeWMZIRN7ZxMpY9O1WSazlqA1GI2A6UtmKIx6r2dX7seMOOENI+Tjl2ojAYQscbGgYpzVNL9VNf/w7xQaHqjtWLUcAOmJYweA0mZb6cGoAd8Gjcwz7iper0s53AViof2QbBffDKJxF820BsiCZAMp+Nq1Y7wrFqnnEN7HiE+YHPDxNfvBXnEgubPXu6DeZGa6edzqVbRwO52"
+            "ext": "./json/wogg.json"
         },
-
-//删除木偶，无法加载
-
-		{
-			"key": "csp_Duopan",
-			"name": "蜡笔┃4K网盘",
-			"type": 3,
-			"quickSearch": 0,
-			"api": "csp_Duopan",
-			"filterable": 1,
-			"ext": {
-				"site_urls": [
-					"https://feimao666.fun",
-					"http://feimao888.fun",
-					"http://feimaoai.site",
-					"http://www.labi88.sbs",
-					"http://fmao.site",
-					"https://fmao.shop"
-				],
-				"threadinfo": {
-					"chunksize": 512,
-					"threads": 16
-				},
-				"url_key": "Duopan4"
-			}
-		},
-		{
-			"key": "csp_Netfixtv",
-			"name": "至臻┃4K网盘",
-			"type": 3,
-			"changeable": "0",
-			"quickSearch": 0,
-			"api": "csp_Duopan",
-			"filterable": 1,
-			"ext": {
-				"site_urls": [
-					"https://mihdr.top",
-					"https://www.mihdr.top",
-					"https://www.miqk.cc",
-					"https://xiaomiai.site",
-					"https://xiaomi666.fun",
-					"https://www.zhizhenpan.fun"
-				],
-				"url_key": "Netfixtv",
-				"token": "",
-				"ucCookie": "",
-				"quarkCookie": "",
-				"threadinfo": {
-					"chunksize": 512,
-					"threads": 16
-				}
-			}
-		},
-
-//删除多多，无法加载
-
+        {
+            "key": "木偶",
+            "name": "木偶｜4K网盘",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/mogg.json"
+        },
+        {
+            "key": "蜡笔",
+            "name": "蜡笔｜4K网盘",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/lb.json"
+        },
+        {
+            "key": "至臻",
+            "name": "至臻｜4K网盘",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/zz.json"
+        },
+        {
+            "key": "多多",
+            "name": "多多｜4K网盘",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/yyds.json"
+        },
         {
             "key": "欧哥",
             "name": "欧哥｜4K网盘",
@@ -489,34 +491,17 @@
             "changeable": 1,
             "ext": "./json/og.json"
         },
-		{
-			"key": "csp_Netfixtv2",
-			"name": "二小┃4K网盘",
-			"type": 3,
-			"changeable": "0",
-			"quickSearch": 0,
-			"api": "csp_Duopan",
-			"filterable": 1,
-			"ext": {
-				"site_urls": [
-					"https://www.wexwp.cc",
-					"https://wexwp.cc",
-					"https://www.2xiaopan.fun/",
-					"https://2xiaopan.fun/",
-					"https://www.2xiaoyun.fun/",
-					"https://www.2xiaoyun.fun/",
-					"https://www.xhww.net/"
-				],
-				"url_key": "UC",
-				"token": "",
-				"ucCookie": "",
-				"quarkCookie": "",
-				"threadinfo": {
-					"chunksize": 512,
-					"threads": 16
-				}
-			}
-		},
+        {
+            "key": "二小",
+            "name": "二小｜4K网盘",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/ex.json"
+        },
         {
             "key": "虎斑",
             "name": "虎斑｜4K网盘",
@@ -539,9 +524,9 @@
             "changeable": 1,
             "ext": "./json/sd.json"
         },
-
-//删除百家
-
+        
+        //删除百家
+        
         {
             "key": "团长",
             "name": "团长｜4K网盘",
@@ -567,9 +552,9 @@
             },
             "ext": "./json/lj.json"
         },
-
-//删除海绵
-
+        
+        //删除海绵
+        
         {
             "key": "夸父",
             "name": "夸父｜4K网盘",
@@ -585,9 +570,9 @@
             },
             "ext": "./json/kf.json"
         },
-
-//删除123
-
+        
+        //删除123，无法加载
+        
         {
             "key": "趣盘",
             "name": "趣盘｜4K网盘",
@@ -605,9 +590,7 @@
                 "url": "https://www.qupanshe.com"
             }
         },
-
-//删除盘库
-
+        //删除盘库，无法播放
         {
             "key": "双星",
             "name": "双星｜4K网盘",
@@ -658,10 +641,11 @@
                 "type": "list"
             }
         },
-
-//删除糖果
-//删除米搜
-//删除全盘
+        
+        //删除糖果搜索，无法加载
+        //删除音海，无法加载
+        //删除米搜，清晰度不够
+        //删除全盘，无法加载
 
         {
             "key": "星芽短剧",
@@ -702,9 +686,9 @@
             "quickSearch": 1,
             "filterable": 1
         },
-
-//删除锦鲤短剧
-
+        
+        //删除锦鲤短剧，无法播放
+        
         {
             "key": "剧王短剧",
             "name": "剧王｜短剧",
@@ -1357,40 +1341,12 @@
             "quickSearch": 1,
             "filterable": 1
         },
-
-        {
-            "key": "短剧合集",
-            "name": "短剧｜合集",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/短剧合集.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "短剧大全",
-            "name": "短剧｜大全",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/短剧大全.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "AList",
-            "name": "AList｜合集",
-            "type": 3,
-            "api": "csp_Alist",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "ext": "./json/alist.json"
-        },
+        //删除夸克云盘
+        //删除UC云盘
+        //删除百度云盘
+        //删除短剧合集
+        //删除短剧大全
+        //删除alist合集
         {
             "key": "88看球",
             "name": "88｜看球",
@@ -1401,6 +1357,10 @@
                 "type": "list"
             }
         },
+        
+        //删除网络直播
+        //删除哔哩直播
+        
         {
             "key": "哔哩合集",
             "name": "哔哩｜合集",
@@ -1822,7 +1782,7 @@
         }
     ],
     "lives": [
-	    {
+        {
 		"name": "webview源",
 		"type": 0,
 		"url": "https://gongdian.top/tv/webvideo.txt",
